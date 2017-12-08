@@ -24,7 +24,7 @@ public:
     static Factory* instance();
     Data* create(char * typeName);
 private:
-    static std::map<std::string,Data * (*) ()> g_map;
+    static std::map<std::string,Data * (*) ()> *g_map;
     static Factory * m_instance;
     std::map<std::string,Data*> m_data;
     int m_index;
