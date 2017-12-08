@@ -1,0 +1,2 @@
+# ExampleMode
+about design mode
