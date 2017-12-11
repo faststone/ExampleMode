@@ -2,4 +2,8 @@ TEMPLATE = subdirs
 
 SUBDIRS += \
     SimpleFactory \
-    FactoryMethod
+    FactoryMethod \
+    AbstractFactory \
+    BuilderFactory \
+    SingletonMode \
+    PrototypeMode
